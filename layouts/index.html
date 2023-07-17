@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>R Clarke Web</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- Font Awesome CDN -->
+    <script src="https://kit.fontawesome.com/69f7465c1a.js" crossorigin="anonymous"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Devicon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+
+    <!-- Flowbite -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.css" rel="stylesheet" />
+  
+  </head>
+
+<body class="bg-gradient-to-b from-violet-300 via-sky-100 to-lime-100">
+
+  <div class="navbar bg-violet-300">
+    <div class="flex-1">
+      <a class="px-4 normal-case text-xl"
+      style="font-family: 'Work Sans', sans-serif;" href="#">rclarkeweb</a>
+    </div>
+    <div class="flex-none">
+      <ul class="menu menu-horizontal px-1">
+        <li><a class="text-base hover:bg-white/50 px-4 py-2 transition hover:scale-110 hover:-rotate-2"
+          style="font-family: 'Work Sans', sans-serif;" href="#about">about</a></li>
+        <li><a class="text-base hover:bg-white/50 px-4 py-2 transition hover:scale-110 hover:rotate-2"
+          style="font-family: 'Work Sans', sans-serif;" href="#portfolio">projects</a></li>
+        <li><a class="text-base hover:bg-white/50 px-4 py-2 transition hover:scale-110 hover:-rotate-2"
+          style="font-family: 'Work Sans', sans-serif;" href="#contact">contact</a></li>
+      </ul>
+    </div>
+  </div>
+  
+ 
+
+  <!-- Header section -->
+  <div class="hero min-h-screen bg-hero bg-no-repeat">
+    <div class="hero-content text-center">
+      <div class="max-w-md">
+        <h1 class="text-3xl font-mono font-bold text-zinc-50/50"><span class="text-zinc-50/25 text-4xl">&lt;</span>&nbsp;Hello World&nbsp;<span class="text-zinc-50/25 text-4xl">&sol;&gt;</span></h1>
+        <h1 class="dark:text-slate-50 font-semibold text-xl mt-6 text-black" style="font-family: 'Instrument Serif', serif;">Welcome to my little space on the internet</h1>
+        <h1 class="dark:text-slate-50 text-6xl mt-6 font-bold text-black" style="font-family: 'Instrument Serif', serif;">I'm Rebecca.
+        </h1>
+        <h2 class="dark:text-slate-50 mt-10 text-xl text-black font-bold inline-block scale-110 rotate-2" style="font-family: 'Instrument Serif', serif;">I enjoy <span class="bg-white/50 rounded px-2 py-1 hover:bg-white dark:text-slate-800 mx-2">building things for the web</span></h2>
+        <br/>
+        <div>
+        <h2 class="dark:text-slate-50 mt-8 text-xl text-black font-bold inline-block scale-110 -rotate-2" style="font-family: 'Instrument Serif', serif;">& <span class="rounded dark:text-slate-800 bg-white/50 px-2 py-1 hover:bg-white mx-2">learning new skills</span></h2>
+        </div>
+        <div class="mt-12">
+        <a href="#about">
+          <svg style="text-align: center; display: block; margin: auto;" width="1rem" height="auto" viewBox="0 0 33 128" xmlns="http://www.w3.org/2000/svg" class="animate-bounce dark:text-white dark:fill-white">
+            <path d="M22.8237 120.455C22.7237 119.955 22.8237 119.755 22.7237 119.555C18.0237 110.755 14.9237 101.355 11.5237 92.0545C8.02365 82.4545 4.52365 72.8545 2.12365 62.8545C0.923654 57.2545 -0.176346 51.6545 0.0236545 45.9545C0.123654 44.2545 0.323654 42.4545 0.923654 40.7545C2.02365 37.3545 5.02365 35.9545 8.42365 37.2545C9.82365 37.7545 11.1237 38.5545 12.3237 39.5545C14.2237 41.0545 15.9237 42.7545 17.7237 44.3545C18.6237 45.1545 19.5237 45.9545 20.5237 46.6545C22.5237 47.9545 24.1237 47.5545 25.4237 45.6545C26.7237 43.7545 27.2237 41.5545 27.4237 39.3545C27.6237 36.1545 27.0237 33.1545 26.1237 30.1545C24.1237 23.5545 21.3237 17.2545 17.6237 11.4545C16.1237 9.05451 14.7237 6.65451 13.3237 4.25451C12.8237 3.45451 12.5237 2.45451 12.4237 1.55451C12.3237 1.05451 12.8237 0.154509 13.2237 0.0545085C13.7237 -0.145492 14.5237 0.254508 15.1237 0.454509C15.3237 0.554509 15.4237 0.854509 15.5237 1.05451C18.0237 4.75451 20.6237 8.55451 23.0237 12.5545C27.1237 19.2545 30.2237 26.4545 31.8237 34.2545C32.5237 37.9545 32.5237 41.6545 31.1237 45.1545C30.5237 46.7545 29.6237 48.3545 28.5237 49.6545C25.9237 52.6545 22.1237 53.2545 18.7237 51.2545C17.0237 50.2545 15.5237 48.8545 14.0237 47.5545C12.1237 46.0545 10.3237 44.4545 8.52365 42.9545C8.02365 42.5545 7.22365 42.3545 6.62365 42.0545C5.62365 43.0545 5.82365 44.2545 5.72365 45.3545C5.62365 51.4545 6.62365 57.4545 8.42365 63.3545C12.1237 75.5545 16.0237 87.6545 19.8237 99.7545C21.3237 104.455 22.7237 109.155 24.3237 114.255C24.6237 113.555 24.8237 113.155 25.0237 112.655C25.6237 110.755 26.1237 108.855 26.8237 106.955C27.1237 106.155 27.5237 105.355 28.1237 104.655C28.7237 103.855 29.7237 103.555 30.5237 104.155C31.1237 104.555 31.5237 105.355 31.7237 106.055C31.9237 106.755 31.7237 107.455 31.5237 108.155C30.1237 113.655 28.8237 119.155 27.3237 124.655C26.5237 127.455 24.3237 128.454 21.7237 127.055C20.3237 126.355 18.9237 125.355 17.9237 124.155C14.0237 119.955 10.2237 115.555 6.52365 111.155C5.82365 110.355 5.22365 109.255 4.82365 108.255C4.42365 107.055 5.22365 106.255 6.32365 106.855C7.82365 107.655 9.42365 108.555 10.7237 109.755C13.7237 112.455 16.5237 115.255 19.4237 117.955C20.2237 118.655 20.9237 119.355 21.7237 120.055C22.0237 120.055 22.3237 120.155 22.8237 120.455Z" fill="#000000"/>
+          </svg></a>
+          </div>
+      </div>
+    </div>
+  </div>
+
+<!-- About section -->
+<section class="mb-12" id="about">
+  <div class="px-10 h-auto dark:bg-stone-800">
+    <div class="pb-2 items-end justify-between sm:flex">
+      <div class="max-w-sm mb-2">
+        <h1 class=" dark:text-slate-50 text-7xl mt-6 text-black "
+          style="font-family: 'Instrument Serif', serif;">
+            About.
+        </h1>
+      </div>
+    
+    </div>
+      <div class="w-full">
+
+        <p class="dark:text-stone-50 my-8 text-xl  text-black" style="font-family: 'Work Sans', sans-serif;">
+          I'm a self taught web developer with over 6 years experince. I am experienced with many CMS platforms such as Squarespace,
+          Wordpress as well as the LMS platforms; Thinkific and LearnWorlds. I can also develop a website from scratch, just like this one! Feel free to check out its code here. 
+          I am passionate about tech and always want to improve on my existing skill set by learning new things, you can check out my tech stack and certficates below.<br/>
+          I'm seeking a role as a Junior Software Developer but I am also open to other tech roles too.<br/>
+          I am also experienced with digital marketing and content creation, as well as producing printed media such as adverts,
+          posters, leaflets and booklets.
+        </p>
+    </div>
+  </div>
+
+  <h1 class="px-10 pt-10 dark:text-slate-50 text-5xl mt-8 text-black" style="font-family: 'Instrument Serif', serif;">
+    Tech Skills.
+  </h1>
+  <div class=" px-6 py-8 mx-8 h-auto">
+    <div class="flex flex-wrap justify-evenly">
+      <div class="tooltip" data-tip="HTML5">
+        <div class="m-2 p-2"><i class="devicon-html5-plain text-black/75 text-5xl"></i></div>
+      </div>
+      <div class="tooltip" data-tip="CSS3">
+        <div class="m-2 p-2"><i class="devicon-css3-plain text-black/75 text-5xl"></i></div>
+      </div>
+      <div class="tooltip" data-tip="Bootstrap">
+        <div class="m-2 p-2"><i class="devicon-bootstrap-plain text-black/75 text-5xl"></i></div>
+      </div>
+      <div class="tooltip" data-tip="SASS">
+        <div class="m-2 p-2"><i class="devicon-sass-original text-black/75 text-5xl"></i></div>
+      </div>
+      <div class="tooltip" data-tip="Tailwind CSS">
+        <div class="m-2 p-2"><i class="devicon-tailwindcss-plain text-black/75 text-5xl"></i></div>
+      </div>
+      <div class="tooltip" data-tip="JavaScript">
+        <div class="m-2 p-2"><i class="devicon-javascript-plain text-black/75 text-5xl"></i></div>
+      </div>
+      <div class="tooltip" data-tip="GitHub">
+        <div class="m-2 p-2"><i class="devicon-github-original text-black/75 text-5xl"></i></div>
+      </div>
+      <div class="tooltip" data-tip="Git">
+        <div class="m-2 p-2"><i class="devicon-git-plain text-black/75 text-5xl"></i></div>
+      </div>
+      <div class="tooltip" data-tip="Filezilla">
+        <div class="m-2 p-2"><i class="devicon-filezilla-plain text-black/75 text-5xl"></i></div>
+      </div>
+      <div class="tooltip" data-tip="PyCharm">
+        <div class="m-2 p-2"><i class="devicon-pycharm-plain text-black/75 text-5xl"></i></div>
+      </div>
+      <div class="tooltip" data-tip="VS Code">
+        <div class="m-2 p-2"><i class="devicon-vscode-plain text-black/75 text-5xl"></i></div>
+      </div>
+      <div class="tooltip" data-tip="Terminal/Shell">
+        <div class="m-2 p-2"><i class="fa-solid fa-terminal text-black/75 text-5xl"></i></div>
+      </div>
+      <div class="tooltip" data-tip="WordPress">
+        <div class="m-2 p-2"><i class=" devicon-wordpress-plain text-black/75 text-5xl"></i></div>
+      </div>
+      <div class="tooltip" data-tip="Squarespace">
+        <div class="m-2 p-2"><i class="fa-brands fa-squarespace text-black/75 text-5xl"></i></div>
+      </div>
+    </div>
+    <div class="text-center text-black/75 font-bold text-lg pb-8 pt-8" style="font-family: 'Work Sans', sans-serif;">LEARNING</div>
+    <div class="flex flex-wrap justify-center">
+      <div class="tooltip" data-tip="Python">
+        <div class="m-2 p-2"><i class="devicon-python-plain text-black/75 text-5xl"></i></div>
+      </div>
+      <div class="tooltip" data-tip="Pandas">
+        <div class="m-2 p-2"><i class="devicon-pandas-original text-black/75 text-5xl"></i></div>
+      </div>
+      <div class="tooltip" data-tip="Jupyter Notebooks">
+        <div class="m-2 p-2"><i class="devicon-jupyter-plain text-black/75 text-5xl"></i></div>
+      </div>
+      <div class="tooltip" data-tip="MySQL">
+        <div class="m-2 p-2"><i class="devicon-mysql-plain text-black/75 text-5xl"></i></div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+  <h1 class="px-10 dark:text-slate-50 text-5xl mt-6 text-black" style="font-family: 'Instrument Serif', serif;">
+    Certificates.
+  </h1>
+  <p class="px-10 pt-4">&nbsp;Available upon request.</p>
+  <div class="mt-6 px-6 py-2 mx-8 h-auto rounded-xl">
+
+    <!-- Start Accordions -->
+    <div id="accordion-flush" data-accordion="collapse"
+      data-active-classes="bg-white/50 dark:bg-gray-900 text-gray-900 dark:text-white"
+      data-inactive-classes="text-gray-800 dark:text-gray-400">
+
+      <!-- Python Certificates -->
+      <h2 id="accordion-flush-heading-1">
+        <button type="button"
+          class="flex items-center justify-between w-full py-5 font-medium text-left text-gray-900 border-b border-gray-500 dark:border-gray-700 dark:text-gray-400"
+          data-accordion-target="#accordion-flush-body-1" aria-expanded="false" aria-controls="accordion-flush-body-1">
+          <span class="px-2" style="font-family: 'Work Sans', sans-serif;">Python Certificates</span>
+          <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+              d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+              clip-rule="evenodd"></path>
+          </svg>
+        </button>
+      </h2>
+      <div id="accordion-flush-body-1" class="hidden" aria-labelledby="accordion-flush-heading-1">
+        <div class="py-5 border-b border-gray-500 dark:border-gray-700">
+          <p class="px-2 mb-2 text-gray-800 dark:text-gray-400"
+          style="font-family: 'Work Sans', sans-serif;">
+          <span class="font-bold">Python & Apps Coding Kickstarter</span>
+          | Code First Girls<br/>
+          8 Week course learning fundamental Python3 and how to use API's to build a terminal based game.<br/><br />
+        <span class="font-bold">Learn Python3</span>
+        | Codecademy<br/>
+        Course on Python 3 learning loops, functions, dictionaries, modules & files.<br /><br />
+        <span class="font-bold">Intro to Python MOOC</span>
+        | Code First Girls<br/>
+        Learning Python fundamentals over 4 weeks with 1 hour a week and follow up quiz assessment.<br /><br />
+        <span class="font-bold">Intro to Python for Data MOOC</span>
+        | Code First Girls<br />
+        Learning what Pandas is and how to use it to read and write data files.<br /><br />
+        <span class="font-bold">Python Data Challenge</span>
+        | Code First Girls<br />
+        Challenge to analyse a Data File using Pandas.
+        </p>
+        </div>
+      </div>
+
+      <!-- JS Certificates -->
+      <h2 id="accordion-flush-heading-2">
+        <button type="button"
+          class="flex items-center justify-between w-full py-5 font-medium text-left text-gray-900 border-b border-gray-500 dark:border-gray-700 dark:text-gray-400"
+          data-accordion-target="#accordion-flush-body-2" aria-expanded="false" aria-controls="accordion-flush-body-2">
+          <span class="px-2" style="font-family: 'Work Sans', sans-serif;">JavaScript Certificates</span>
+          <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+              d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+              clip-rule="evenodd"></path>
+          </svg>
+        </button>
+      </h2>
+      <div id="accordion-flush-body-2" class="hidden" aria-labelledby="accordion-flush-heading-2">
+        <div class="py-5 border-b border-gray-500 dark:border-gray-700">
+          <p class="px-2 mb-2 text-gray-800 dark:text-gray-400"
+          style="font-family: 'Work Sans', sans-serif;">
+          <span class="font-bold">JavaScript Essentials</span>
+          | CISCO<br />
+          Understanding core Javascript concepts<br /><br />
+          <span class="font-bold">JavaScript Algorithms & Data Structures</span>
+          | Free Code Camp<br/>
+          Learning JavaScript fundamentals and understanding Data Structures and Object Orientated Programming (OOP)<br/><br />
+        <span class="font-bold">Learn JavaScript</span>
+        | Codecademy<br />
+        Learning JavaScript ES6.
+        </p>
+        </div>
+      </div>
+
+      <!-- SQL certificates-->
+      <h2 id="accordion-flush-heading-3">
+        <button type="button"
+          class="flex items-center justify-between w-full py-5 font-medium text-left text-gray-900 border-b border-gray-500 dark:border-gray-700 dark:text-gray-400"
+          data-accordion-target="#accordion-flush-body-3" aria-expanded="false" aria-controls="accordion-flush-body-3">
+          <span class="px-2" style="font-family: 'Work Sans', sans-serif;">SQL Certificates</span>
+          <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+              d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+              clip-rule="evenodd"></path>
+          </svg>
+        </button>
+      </h2>
+      <div id="accordion-flush-body-3" class="hidden" aria-labelledby="accordion-flush-heading-3">
+        <div class="py-5 border-b border-gray-500 dark:border-gray-700">
+          <p class="px-2 mb-2 text-gray-800 dark:text-gray-400"
+          style="font-family: 'Work Sans', sans-serif;">
+          <span class="font-bold">Learn SQL</span>
+            | Codecademy<br />
+          Learning SQL manipulation, queries & multiple tables.<br /><br />
+          <span class="font-bold">Data and SQL MOOC</span>
+          | Code First Girls<br />
+          An Introduction to SQL and MySQL.</p>
+        </div>
+      </div>
+
+      <!-- Dev Tools Certificates -->
+      <h2 id="accordion-flush-heading-4">
+        <button type="button"
+          class="flex items-center justify-between w-full py-5 font-medium text-left text-gray-900 border-b border-gray-500 dark:border-gray-700 dark:text-gray-400"
+          data-accordion-target="#accordion-flush-body-4" aria-expanded="false" aria-controls="accordion-flush-body-4">
+          <span class="px-2" style="font-family: 'Work Sans', sans-serif;">DEV Tools Certificates</span>
+          <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+              d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+              clip-rule="evenodd"></path>
+          </svg>
+        </button>
+      </h2>
+      <div id="accordion-flush-body-4" class="hidden" aria-labelledby="accordion-flush-heading-4">
+        <div class="py-5 border-b border-gray-500 dark:border-gray-700">
+          <p class="px-2 mb-2 text-gray-800 dark:text-gray-400"
+          style="font-family: 'Work Sans', sans-serif;">
+          <span class="font-bold">Learn Git & GitHub</span>
+            | Codecademy<br />
+            Learning about Git and GitHub and how to use them.<br /><br />
+            <span class="font-bold">Learn Bash Scripting</span>
+            | Codecademy<br />
+            Learning the basics of Bash.<br /><br />
+            <span class="font-bold">Learn Command Line</span>
+            | Codecademy<br />
+            Learning how to use the command line.<br /><br />
+            <span class="font-bold">Introduction to Cloud Computing</span>
+            | Codecademy<br />
+            Understanding what the cloud is and why it is important.
+          </p>
+        </div>
+      </div>
+
+      <!-- Other Tech Cerificates -->
+      <h2 id="accordion-flush-heading-5">
+        <button type="button"
+          class="flex items-center justify-between w-full py-5 font-medium text-left text-gray-900 border-b border-gray-500 dark:border-gray-700 dark:text-gray-400"
+          data-accordion-target="#accordion-flush-body-5" aria-expanded="false" aria-controls="accordion-flush-body-5">
+          <span class="px-2" style="font-family: 'Work Sans', sans-serif;">Other Tech Certificates</span>
+          <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+              d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+              clip-rule="evenodd"></path>
+          </svg>
+        </button>
+      </h2>
+      <div id="accordion-flush-body-5" class="hidden" aria-labelledby="accordion-flush-heading-5">
+        <div class="py-5 border-b border-gray-500 dark:border-gray-700">
+          <p class="px-2 mb-2 text-gray-800 dark:text-gray-400"
+          style="font-family: 'Work Sans', sans-serif;">
+          <span class="font-bold">Learn SASS</span>
+            | Codecademy<br />
+            Learning SCSS syntax, nesting & functions.<br /><br />
+            <span class="font-bold">Fundamentals of Digital Marketing</span>
+            | Google<br />
+            Paid ads, email marketing & SEO.<br /><br />
+            <span class="font-bold">Learn Microsoft Excel for Data Analysis</span>
+            | Codecademy<br />
+            Visualising & analysing data with Excel.<br /><br />
+            <span class="font-bold">Machine Learning and AI MOOC</span>
+            | Code First Girls<br />
+            A short introduction to Machine Learning concepts and what AI is.<br /><br />
+            <span class="font-bold">Intro to Back-end programming</span>
+            | Codecademy<br />
+            Intro to back-end web architecture.
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  
+</section>
+
+
+<div class="dark:bg-stone-800 pt-8 px-10"></div>
+
+
+<!------------- PORTFOLIO SECTION ---------------->
+
+<section class="dark:bg-stone-800 h-auto mb-12" id="portfolio">
+  <div class="px-10 pt-6 pb-8 mx-auto max-w-screen-2xl sm:px-6 lg:px-8">
+
+      <div class="pb-10 items-end justify-between sm:flex">
+        <p class=" dark:text-slate-50 text-7xl mt-6 text-black " style="font-family: 'Instrument Serif', serif;">
+          Portfolio.
+          </p>
+      <a class="dark:bg-stone-200 mt-4 relative inline-flex items-center px-8 py-3 overflow-hidden text-black bg-white border-2 border-black rounded-2xl group hover:bg-gradient-to-r from-violet-300 via-sky-100 to-lime-100 focus:outline-none focus:ring" href="https://github.com/Rclarkeweb/">
+        <span class="absolute right-0 transition-transform translate-x-full group-hover:-translate-x-4">
+          <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+          </svg>
+        </span>
+      
+        <span class=" font-medium transition-all group-hover:mr-4" style="font-family: 'Work Sans', sans-serif;">
+          <i class="fa-brands fa-github text-black dark:text-stone-50"></i> View my GitHub 
+        </span>
+      </a>
+      
+    </div>
+
+<!------------ Portfolio Items ----------->
+    <div class="grid grid-cols-1 gap-7 mt-8 sm:grid-cols-2 lg:grid-cols-3 dark:bg-stone-800">
+
+      <!-- PROJECT ITEM ONE -->
+      <div class="dark:border-stone-100 border-slate-800 border-2 block overflow-hidden relative rounded-2xl h-96">
+        <div class="dark:border-stone-100 p-2 border-b-2 border-slate-800 bg-white/50">
+          <div class="flex items-center justify-between">
+            <p class="text-gray-600 whitespace-nowrap">
+              <i class="fa-solid fa-circle fa-2xs"></i>&nbsp;
+              <i class="fa-solid fa-circle fa-2xs"></i>&nbsp;
+              <i class="fa-solid fa-circle fa-2xs"></i>&nbsp;
+            </p>
+            <a href="https://www.polsonmotorco.com/"><p class="dark:text-slate-800 text-sm font-bold tracking-widest text-center" style="font-family: 'Work Sans', sans-serif;">Polson Motor Company</p></a>
+            <span class="pr-2.5"><a href="https://www.polsonmotorco.com/">
+              <i class="dark:text-slate-800 fa-solid fa-arrow-up-right-from-square fa-lg"></i></a>
+            </span>
+            <div class="flex justify-around absolute inset-x-0 bottom-2">
+              <p class="text-sm font-medium tracking-widest uppercase">
+                <span class="dark:text-black badge text-pink-600 bg-white border-black m-2 text-xs"
+                  style="font-family: 'Work Sans', sans-serif;">website development</span>
+                <span class="dark:text-black badge text-black bg-white border-black m-2 text-xs"
+                  style="font-family: 'Work Sans', sans-serif;">squarespace</span>
+              </p>
+              
+            </div>
+          </div>
+        </div>
+        <img alt="Polson Motor Company Website" src="img/PolsonMotorCoWebsite.jpeg" class="cover w-full" />
+      </div>
+
+
+      <!-- PROJECT ITEM TWO -->
+      <div class="dark:border-stone-100 border-slate-800 border-2 block overflow-hidden relative rounded-2xl h-96">
+        <div class="dark:border-stone-100 p-2 border-b-2 border-slate-700 bg-white/50">
+          <div class="flex items-center justify-between">
+            <p class="text-zinc-600 whitespace-nowrap">
+              <i class="fa-solid fa-circle fa-2xs"></i>&nbsp;
+              <i class="fa-solid fa-circle fa-2xs"></i>&nbsp;
+              <i class="fa-solid fa-circle fa-2xs"></i>&nbsp;
+            </p>
+            <a href="https://www.ispolson.com/"><p class="dark:text-slate-800 text-sm font-bold tracking-widest text-center" style="font-family: 'Work Sans', sans-serif;">I S Polson</p></a>
+            <span class="pr-2.5"><a href="https://www.ispolson.com/">
+              <i class="dark:text-slate-800 fa-solid fa-arrow-up-right-from-square fa-lg"></i></a>
+            </span>
+            <div class="flex justify-around absolute inset-x-0 bottom-2">
+              <p class="text-sm font-medium tracking-widest uppercase">
+                <span class="dark:text-black badge text-pink-600 bg-white border-black m-2 text-xs"
+                  style="font-family: 'Work Sans', sans-serif;">website development</span>
+                <span class="dark:text-black badge text-green-500 bg-white border-black m-2 text-xs" style="font-family: 'Work Sans', sans-serif;">WordPress</span>
+              </p>
+              
+            </div>
+          </div>
+        </div>
+        <img alt="I S Polson Website" src="img/ISPolsonWebsite.jpeg" class="cover w-full" />
+      </div>
+
+
+      <!-- PROJECT ITEM THREE -->
+      <div class="dark:border-stone-100 border-slate-800 border-2 block overflow-hidden relative rounded-2xl h-96">
+        <div class="dark:border-stone-100 p-2 border-b-2 border-slate-800 bg-white/50">
+          <div class="flex items-center justify-between">
+            <p class="text-gray-600 whitespace-nowrap">
+              <i class="fa-solid fa-circle fa-2xs"></i>&nbsp;
+              <i class="fa-solid fa-circle fa-2xs"></i>&nbsp;
+              <i class="fa-solid fa-circle fa-2xs"></i>&nbsp;
+            </p>
+            <a href="https://www.myndplace.net">
+              <p class="dark:text-slate-800 text-sm font-bold tracking-widest text-center"
+                style="font-family: 'Work Sans', sans-serif;">My ND Place</p>
+            </a>
+            <span class="pr-2.5"><a href="https://www.myndplace.net/">
+                <i class="dark:text-slate-800 fa-solid fa-arrow-up-right-from-square fa-lg"></i></a>
+            </span>
+            <div class="flex justify-around absolute inset-x-0 bottom-2">
+              <p class="text-sm font-medium tracking-widest uppercase">
+                <span class="dark:text-black badge text-pink-600 bg-white border-black m-2 text-xs"
+                  style="font-family: 'Work Sans', sans-serif;">website development</span>
+                  <span class="dark:text-black badge text-orange-600 bg-white border-black m-2 text-xs"
+                    style="font-family: 'Work Sans', sans-serif;">LMS</span>
+              </p>
+      
+            </div>
+          </div>
+        </div>
+        <img alt="My ND Place Website" src="img/MyNDPlaceWebsite.jpg" class="cover w-full" />
+      </div>
+
+      <!-- PROJECT ITEM FOUR -->
+      <div class="dark:border-stone-100 border-slate-800 border-2 block overflow-hidden relative rounded-2xl h-96">
+        <div class="dark:border-stone-100 p-2 border-b-2 border-slate-700 bg-white/50">
+          <div class="flex items-center justify-between">
+            <p class=" text-slate-600 whitespace-nowrap">
+              <i class="fa-solid fa-circle fa-2xs"></i>&nbsp;
+              <i class="fa-solid fa-circle fa-2xs"></i>&nbsp;
+              <i class="fa-solid fa-circle fa-2xs"></i>&nbsp;
+            </p>
+            <a href="https://github.com/Rclarkeweb/Pokemon-Top-Trumps">
+              <p class="dark:text-slate-800 text-sm font-bold tracking-widest text-center"
+                style="font-family: 'Work Sans', sans-serif;">Pokemon Top Trumps</p>
+            </a>
+            <span class="pr-2.5"><a href="https://github.com/Rclarkeweb/Pokemon-Top-Trumps">
+                <i class="dark:text-slate-800 fa-solid fa-arrow-up-right-from-square fa-lg"></i></a>&nbsp;&nbsp;
+              <a href="https://github.com/Rclarkeweb/Pokemon-Top-Trumps">
+                <i class="dark:text-slate-800 fa-solid fa-circle-info fa-lg"></i></a>
+            </span>
+            <div class="flex justify-around absolute inset-x-0 bottom-2">
+              <p class="text-sm font-medium tracking-widest uppercase">
+                <span class="dark:text-black badge text-sky-600 bg-white border-black m-2 text-xs"
+                  style="font-family: 'Work Sans', sans-serif;">project</span>
+                <span class="dark:text-black badge text-purple-600 bg-white border-black m-2 text-xs"
+                  style="font-family: 'Work Sans', sans-serif;">python</span>
+                <span class="dark:text-black badge text-green-600 bg-white border-black m-2 text-xs"
+                  style="font-family: 'Work Sans', sans-serif;">api</span>
+              </p>
+      
+            </div>
+          </div>
+        </div>
+        <img alt="Pokemon Top Trumps" src="img/PokemonTopTrumps.jpg" class="cover h-full" />
+      </div>
+    
+
+      <!-- PROJECT ITEM FIVE -->
+      <div class="dark:border-stone-100 border-slate-800 border-2 block overflow-hidden relative rounded-2xl h-96">
+        <div class="dark:border-stone-100 p-2 border-b-2 border-slate-700 bg-white/50">
+          <div class="flex items-center justify-between">
+            <p class=" text-stone-600 whitespace-nowrap">
+              <i class="fa-solid fa-circle fa-2xs"></i>&nbsp;
+              <i class="fa-solid fa-circle fa-2xs"></i>&nbsp;
+              <i class="fa-solid fa-circle fa-2xs"></i>&nbsp;
+            </p>
+            <a href="https://rclarkeweb.github.io/Random-Animal-Fact-Generator/"><p class="dark:text-slate-800 text-sm font-bold tracking-widest text-center" style="font-family: 'Work Sans', sans-serif;">Animal Fact Generator</p></a>
+            <span class="pr-2.5"><a href="https://rclarkeweb.github.io/Random-Animal-Fact-Generator/">
+              <i class="dark:text-slate-800 fa-solid fa-arrow-up-right-from-square fa-lg"></i></a>&nbsp;&nbsp;
+               <a href="https://github.com/Rclarkeweb/Random-Animal-Fact-Generator">
+                <i class="dark:text-slate-800 fa-solid fa-circle-info fa-lg"></i></a>
+            </span>
+            <div class="flex justify-around absolute inset-x-0 bottom-2">
+              <p class="text-sm font-medium tracking-widest uppercase">
+                <span class="dark:text-black badge text-sky-600 bg-white border-black m-2 text-xs"
+                  style="font-family: 'Work Sans', sans-serif;">project</span>
+                <span class="dark:text-black badge text-red-600 bg-white border-black m-2 text-xs"
+                  style="font-family: 'Work Sans', sans-serif;">JS</span>
+              </p>
+              
+            </div>
+          </div>
+        </div>
+        <img alt="Random Animal Fact Generator Project" src="img/AnimalGenerator.jpeg" class="cover  w-full h-full" />
+      </div>
+
+      <!-- PROJECT ITEM SIX -->
+      <div class="dark:border-stone-100 border-slate-800 border-2 block overflow-hidden relative rounded-2xl h-96">
+        <div class="dark:border-stone-100 p-2 border-b-2 border-slate-700 bg-white/50">
+          <div class="flex items-center justify-between">
+            <p class=" text-slate-600 whitespace-nowrap">
+              <i class="fa-solid fa-circle fa-2xs"></i>&nbsp;
+              <i class="fa-solid fa-circle fa-2xs"></i>&nbsp;
+              <i class="fa-solid fa-circle fa-2xs"></i>&nbsp;
+            </p>
+            <a href="https://rclarkeweb.github.io/bird-watch-counter/"><p class="dark:text-slate-800 text-sm font-bold tracking-widest text-center" style="font-family: 'Work Sans', sans-serif;">Bird Watch Counter</p></a>
+            <span class="pr-2.5"><a href="https://rclarkeweb.github.io/bird-watch-counter/">
+              <i class="dark:text-slate-800 fa-solid fa-arrow-up-right-from-square fa-lg"></i></a>&nbsp;&nbsp;
+               <a href="https://github.com/Rclarkeweb/bird-watch-counter">
+                <i class="dark:text-slate-800 fa-solid fa-circle-info fa-lg"></i></a>
+            </span>
+            <div class="flex justify-around absolute inset-x-0 bottom-2">
+              <p class="text-sm font-medium tracking-widest uppercase">
+                <span class="dark:text-black badge text-sky-600 bg-white border-black m-2 text-xs"
+                    style="font-family: 'Work Sans', sans-serif;">project</span>     
+                <span class="dark:text-black badge text-red-600 bg-white border-black m-2 text-xs"
+                  style="font-family: 'Work Sans', sans-serif;">JS</span>
+              </p>
+              
+            </div>
+          </div>
+        </div>
+        <img alt="Bird Watch Counter" src="img/BirdWatchCounterApp.jpg" class="cover w-full h-full" />
+      </div>
+
+
+      <!-- PROJECT ITEM SEVEN -->
+      <div class="dark:border-stone-100 border-slate-800 border-2 block overflow-hidden relative rounded-2xl h-96">
+        <div class="dark:border-stone-100 p-2 border-b-2 border-slate-700 bg-white/50">
+          <div class="flex items-center justify-between">
+            <p class=" text-slate-600 whitespace-nowrap">
+              <i class="fa-solid fa-circle fa-2xs"></i>&nbsp;
+              <i class="fa-solid fa-circle fa-2xs"></i>&nbsp;
+              <i class="fa-solid fa-circle fa-2xs"></i>&nbsp;
+            </p>
+            <a href="https://rclarkeweb.github.io/to-do-app/">
+              <p class="dark:text-slate-800 text-sm font-bold tracking-widest text-center"
+                style="font-family: 'Work Sans', sans-serif;">To Do App</p>
+            </a>
+            <span class="pr-2.5"><a href="https://rclarkeweb.github.io/to-do-app/">
+                <i class="dark:text-slate-800 fa-solid fa-arrow-up-right-from-square fa-lg"></i></a>&nbsp;&nbsp;
+              <a href="https://github.com/Rclarkeweb/to-do-app">
+                <i class="dark:text-slate-800 fa-solid fa-circle-info fa-lg"></i></a>
+            </span>
+            <div class="flex justify-around absolute inset-x-0 bottom-2">
+              <p class="text-sm font-medium tracking-widest uppercase">
+                <span class="dark:text-black badge text-sky-600 bg-white border-black m-2 text-xs"
+                  style="font-family: 'Work Sans', sans-serif;">project</span>
+                <span class="dark:text-black badge text-red-600 bg-white border-black m-2 text-xs"
+                  style="font-family: 'Work Sans', sans-serif;">JS</span>
+              </p>
+      
+            </div>
+          </div>
+        </div>
+        <img alt="To Do App" src="img/ToDoApp.jpg" class="cover  w-full h-full" />
+      </div>
+
+      <!-- PROJECT ITEM EIGHT -->
+      <div class="dark:border-stone-100 border-slate-800 border-2 block overflow-hidden relative rounded-2xl h-96">
+        <div class="dark:border-stone-100 p-2 border-b-2 border-slate-700 bg-white/50">
+          <div class="flex items-center justify-between">
+            <p class="text-zinc-600 whitespace-nowrap">
+              <i class="fa-solid fa-circle fa-2xs"></i>&nbsp;
+              <i class="fa-solid fa-circle fa-2xs"></i>&nbsp;
+              <i class="fa-solid fa-circle fa-2xs"></i>&nbsp;
+            </p>
+            <a href="https://github.com/Rclarkeweb/rock-paper-scissors">
+              <p class="dark:text-slate-800 text-sm font-bold tracking-widest text-center"
+                style="font-family: 'Work Sans', sans-serif;">Rock, Paper, Scissors</p>
+            </a>
+            <span class="pr-2.5"><a href="https://github.com/Rclarkeweb/rock-paper-scissors">
+                <i class="dark:text-slate-800 fa-solid fa-arrow-up-right-from-square fa-lg"></i></a>&nbsp;&nbsp;
+              <a href="https://github.com/Rclarkeweb/rock-paper-scissors">
+              <i class="dark:text-slate-800 fa-solid fa-circle-info fa-lg"></i></a>
+            </span>
+            <div class="flex justify-around absolute inset-x-0 bottom-2">
+              <p class="text-sm font-medium tracking-widest uppercase">
+                <span class="dark:text-black badge text-sky-600 bg-white border-black m-2 text-xs"
+                  style="font-family: 'Work Sans', sans-serif;">project</span>
+                <span class="dark:text-black badge text-purple-600 bg-white border-black m-2 text-xs"
+                  style="font-family: 'Work Sans', sans-serif;">python</span>
+              </p>
+      
+            </div>
+          </div>
+        </div>
+        <img alt="Rock, Paper, Scissors" src="img/RockPaperScissors.jpg" class="cover  w-full h-full" />
+      </div>
+
+      <!-- PROJECT ITEM NINE -->
+      <div class="dark:border-stone-100 border-slate-800 border-2 block overflow-hidden relative rounded-2xl h-96">
+        <div class="dark:border-stone-100 p-2 border-b-2 border-slate-700 bg-white/50">
+          <div class="flex items-center justify-between">
+            <p class=" text-slate-600 whitespace-nowrap">
+              <i class="fa-solid fa-circle fa-2xs"></i>&nbsp;
+              <i class="fa-solid fa-circle fa-2xs"></i>&nbsp;
+              <i class="fa-solid fa-circle fa-2xs"></i>&nbsp;
+            </p>
+            <a href="https://rclarkeweb.github.io/Guess-the-Chickens-age/">
+              <p class="dark:text-slate-800 text-sm font-bold tracking-widest text-center"
+                style="font-family: 'Work Sans', sans-serif;">Guess the chickens age</p>
+            </a>
+            <span class="pr-2.5"><a href="https://rclarkeweb.github.io/Guess-the-Chickens-age/">
+                <i class="dark:text-slate-800 fa-solid fa-arrow-up-right-from-square fa-lg"></i></a>&nbsp;&nbsp;
+              <a href="https://github.com/Rclarkeweb/Guess-the-Chickens-age">
+                <i class="dark:text-slate-800 fa-solid fa-circle-info fa-lg"></i></a>
+            </span>
+            <div class="flex justify-around absolute inset-x-0 bottom-2">
+              <p class="text-sm font-medium tracking-widest uppercase">
+                <span class="dark:text-black badge text-sky-600 bg-white border-black m-2 text-xs"
+                  style="font-family: 'Work Sans', sans-serif;">project</span>
+                <span class="dark:text-black badge text-red-600 bg-white border-black m-2 text-xs"
+                  style="font-family: 'Work Sans', sans-serif;">JS</span>
+                
+              </p>
+      
+            </div>
+          </div>
+        </div>
+        <img alt="To Do App" src="img/guesstheage.jpg" class="cover  w-full h-full" />
+      </div>
+
+      <!-- PROJECT ITEM TEN -->
+      <div class="dark:border-stone-100 border-slate-800 border-2 block overflow-hidden relative rounded-2xl h-96">
+        <div class="dark:border-stone-100 p-2 border-b-2 border-slate-700 bg-white/50">
+          <div class="flex items-center justify-between">
+            <p class=" text-slate-600 whitespace-nowrap">
+              <i class="fa-solid fa-circle fa-2xs"></i>&nbsp;
+              <i class="fa-solid fa-circle fa-2xs"></i>&nbsp;
+              <i class="fa-solid fa-circle fa-2xs"></i>&nbsp;
+            </p>
+            <a href="https://rclarkeweb.github.io/dictionary/">
+              <p class="dark:text-slate-800 text-sm font-bold tracking-widest text-center"
+                style="font-family: 'Work Sans', sans-serif;">Dictionary App</p>
+            </a>
+            <span class="pr-2.5"><a href="https://rclarkeweb.github.io/dictionary/">
+                <i class="dark:text-slate-800 fa-solid fa-arrow-up-right-from-square fa-lg"></i></a>&nbsp;&nbsp;
+              <a href="https://github.com/Rclarkeweb/dictionary">
+                <i class="dark:text-slate-800 fa-solid fa-circle-info fa-lg"></i></a>
+            </span>
+            <div class="flex justify-around absolute inset-x-0 bottom-2">
+              <p class="text-sm font-medium tracking-widest uppercase">
+                <span class="dark:text-black badge text-sky-600 bg-white border-black m-2 text-xs"
+                  style="font-family: 'Work Sans', sans-serif;">project</span>
+                <span class="dark:text-black badge text-red-600 bg-white border-black m-2 text-xs"
+                  style="font-family: 'Work Sans', sans-serif;">JS</span>
+                <span class="dark:text-black badge text-green-600 bg-white border-black m-2 text-xs"
+                  style="font-family: 'Work Sans', sans-serif;">api</span>
+              </p>
+      
+            </div>
+          </div>
+        </div>
+        <img alt="Dictionary app" src="img/JSDictionary.jpg" class="cover  w-full h-full" />
+      </div>
+
+      <!-- PROJECT ITEM ELEVEN -->
+      <div class="dark:border-stone-100 border-slate-800 border-2 block overflow-hidden relative rounded-2xl h-96">
+        <div class="dark:border-stone-100 p-2 border-b-2 border-slate-700 bg-white/50">
+          <div class="flex items-center justify-between">
+            <p class=" text-slate-600 whitespace-nowrap">
+              <i class="fa-solid fa-circle fa-2xs"></i>&nbsp;
+              <i class="fa-solid fa-circle fa-2xs"></i>&nbsp;
+              <i class="fa-solid fa-circle fa-2xs"></i>&nbsp;
+            </p>
+            <a href="https://github.com/Rclarkeweb/Star-Wars-Planets/blob/main/main.py">
+              <p class="dark:text-slate-800 text-sm font-bold tracking-widest text-center"
+                style="font-family: 'Work Sans', sans-serif;">Star Wars Terminal Game</p>
+            </a>
+            <span class="pr-2.5"><a href="https://github.com/Rclarkeweb/Star-Wars-Planets/blob/main/main.py">
+                <i class="dark:text-slate-800 fa-solid fa-arrow-up-right-from-square fa-lg"></i></a>&nbsp;&nbsp;
+              <a href="https://github.com/Rclarkeweb/Star-Wars-Planets">
+                <i class="dark:text-slate-800 fa-solid fa-circle-info fa-lg"></i></a>
+            </span>
+            <div class="flex justify-around absolute inset-x-0 bottom-2">
+              <p class="text-sm font-medium tracking-widest uppercase">
+                <span class="dark:text-black badge text-sky-600 bg-white border-black m-2 text-xs"
+                  style="font-family: 'Work Sans', sans-serif;">project</span>
+                <span class="dark:text-black badge text-purple-600 bg-white border-black m-2 text-xs"
+                  style="font-family: 'Work Sans', sans-serif;">python</span>
+                <span class="dark:text-black badge text-green-600 bg-white border-black m-2 text-xs"
+                  style="font-family: 'Work Sans', sans-serif;">api</span>
+              </p>
+      
+            </div>
+          </div>
+        </div>
+        <img alt="Dictionary app" src="img/swapi.jpg" class="cover w-full h-full" />
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!---------CONTACT SECTION ---------->
+
+<section class="dark:bg-stone-800 bg-auto bg-no-repeat" id="contact">
+  <!-- style="background-image: url('img/contactimg.png');" -->
+  <div class="max-w-screen-xl h-auto px-4 py-32 lg:items-center sm:flex">
+    <div class="max-w-3xl mx-auto text-center">
+      <h1 class=" p-4 dark:text-slate-50 text-7xl mt-6 text-black " style="font-family: 'Instrument Serif', serif;">
+        Contact.
+      </h1>
+
+      <h1 class="mt-8 dark:text-stone-50 text-black font-bold mb-10" style="font-family: 'Work Sans', sans-serif;">
+        Have any questions or interested in working together?
+      </h1>  
+
+      <div class="flex flex-wrap justify-center mt-8">
+        <a class="dark:bg-stone-200 relative inline-flex items-center px-8 py-3 overflow-hidden text-black bg-white rounded-2xl border-2 border-black group hover:bg-gradient-to-r from-violet-300 via-sky-100 to-lime-100 focus:outline-none focus:ring" href="mailto:rclarkeweb@hotmail.com">
+          <span class="absolute right-0 transition-transform translate-x-full group-hover:-translate-x-4">
+            <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+            </svg>
+          </span>
+          <span class="text-sm font-medium transition-all group-hover:mr-4" style="font-family: 'Work Sans', sans-serif;">
+            email me
+          </span>
+        </a>
+      </div>
+      <a href="https://github.com/Rclarkeweb/" role="button" alt="Visit my GitHub" ><i class="fa-brands fa-github fa-2x text-black mt-8 dark:text-stone-50"></i></a> 
+      &nbsp;&nbsp;&nbsp;      
+      <a href="https://www.linkedin.com/in/rclarkeweb/" role="button" alt="Visit my LinkedIn"><i class="fa-brands fa-linkedin fa-2x text-black mt-8 dark:text-stone-50"></i></a>
+    </div>
+  </div>
+  <div class="pt-4 pb-6 text-center text-black">
+    <h1 class="text-2xl font-bold mb-2" style="font-family: 'Instrument Serif', serif;">Thanks for visiting!</h1>
+    <p style="font-family: 'Work Sans', sans-serif;">Designed & Developed by R Clarke Web.</p>
+  </div>
+
+</section>
+
+    <!-- Script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
+  </body>
+
+</html>
