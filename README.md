@@ -1,3 +1,3 @@
 # My Portfolio Website
 
-Created using Tailwind and Daisy UI.
+Created using Tailwind, Flowbite and Daisy UI.
